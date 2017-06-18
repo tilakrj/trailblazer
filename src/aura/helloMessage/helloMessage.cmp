@@ -1,0 +1,13 @@
+<aura:component >
+
+    <aura:attribute name="message" type="String"/>
+
+    <p>Hello! [ message goes here, soon ]</p>
+    <br/>
+    <p>Hello! {!v.message}</p>
+    <br/>
+    <p><ui:outputText value="{!'Hello! ' + v.message}"/></p>
+    <p> {!'Hi! ' + v.message} </p>
+	
+
+</aura:component>
